@@ -1,5 +1,5 @@
-{% set version = "2021.7.8" %}
-{% set sha256 = "d38eb990197248750182802ce790c5feb43c8a5ba9b58fcdfd264a10c65fcaf0" %}
+{% set version = "2021.10.1" %}
+{% set sha256 = "ee6d5b41624135d9f09faa219c727802c61768a4dc0c2669ef8d0116a9d547f9" %}
 
 package:
   name: restraintlib
@@ -12,7 +12,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
 requirements:
   host:
