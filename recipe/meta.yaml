@@ -1,5 +1,5 @@
-{% set version = "2022.5.2" %}
-{% set sha256 = "53218f64bda567e4a2183ad53f48097939e76b5d7927b01b67bd753a70b8c6df" %}
+{% set version = "2022.6.1" %}
+{% set sha256 = "b9ac3d5ebbe5767bc2ba7bf7da63ecd59e8a5fd595d0e00fe2043d257b186fc1" %}
 
 package:
   name: restraintlib
