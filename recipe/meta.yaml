@@ -1,5 +1,5 @@
-{% set version = "2022.6.1" %}
-{% set sha256 = "b9ac3d5ebbe5767bc2ba7bf7da63ecd59e8a5fd595d0e00fe2043d257b186fc1" %}
+{% set version = "2022.8.1" %}
+{% set sha256 = "d8f24394c84ce6c66e0e63f10d1ac5216e5e70e5191b71c1d9a28b0a0c87246e" %}
 
 package:
   name: restraintlib
@@ -17,12 +17,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
     - setuptools
   run:
-    - python >=3.6
+    - python >=3.7
     - cctbx-base >=2020.8
-    - scikit-learn >0.21, <1.0
+    - scikit-learn >=1.0, <1.1
     - pandas
     - six
 
